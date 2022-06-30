@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  /* max-width: 1210px; */
+  /* max-width: 600px; */
+  margin: 0 auto;
+  border-bottom: 3px solid #f1356d;
+}
+.navbar h1 {
+  color: #f1356d;
+  max-width: 600px;
+  /* text-align: center; */
+  /* padding-left: 450px; */
+  padding-left: 400px;
+}
+.navbar .links {
+  margin-left: auto;
+
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  margin: auto;
+  padding: 0px;
+ margin-bottom: auto;
+}
+.image{
+  position: "fixed";
+  top: "130px";
+  height: "40%";
+  width: "95%";
+  left: "310px";
+             
+}
+.register {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.register label {
+  text-align: left;
+  display: block;
+  color:black;
+  font-size:20px;
+  font-weight: bold;
+}
+.register h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-weight: bold;
+}
+.register input, .register textarea, .register select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.register button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.login label {
+  text-align: left;
+  display: block;
+  color:black;
+  font-size:20px;
+  font-weight: bold;
+}
+.login h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-weight: bold;
+}
+.login input, .login textarea, .login select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.login button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 4;
+}
+.mainpage {
+  margin-top: 0.5px;
+}
+.ui-form {
+  margin-left: 1px;
+  background-color:rgb(165, 207, 247);
+  /* align-items: flex-start; */
+  font-size: 23px;
+  color: brown;
+  padding: 24px;
+  padding-left: 5px;
+ border-radius: 10px;
+ padding-bottom: 2px;
+
+}
+.ui-form button{
+  color: #f1356d;
+  background-color: rgb(255, 255, 255);
+  margin-left: 30px;
+  padding: 0.001px;
+  font-weight: bold;
+
+}
+.send {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.send label {
+  text-align: left;
+  display: block;
+  color:black;
+  font-size:20px;
+  font-weight: bold;
+}
+.send h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-weight: bold;
+}
+.send input, .send textarea, .send select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.send button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
